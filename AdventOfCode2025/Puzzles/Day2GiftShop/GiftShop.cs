@@ -10,6 +10,11 @@ public static class GiftShop
     }
     public static class PartOne
     {
+        /// <summary>
+        /// Part 1 <br/>
+        /// https://adventofcode.com/2025/day/2 
+        /// </summary>
+        /// <returns>The sum of all invalid ids</returns>
         public static long Run()
         {
             return CountInvalidIdsInProductRanges(ParseMultipleProductRanges(File.ReadAllText("./Puzzles/Day2GiftShop/Input.txt"))).Sum();
@@ -45,6 +50,11 @@ public static class GiftShop
 
     public static class PartTwo
     {
+        /// <summary>
+        /// Part 2 <br/>
+        /// https://adventofcode.com/2025/day/2 
+        /// </summary>
+        /// <returns>The sum of all invalid ids</returns>
         public static long Run()
         {
             return CountInvalidIdsInProductRanges(ParseMultipleProductRanges(File.ReadAllText("./Puzzles/Day2GiftShop/Input.txt"))).Sum();
