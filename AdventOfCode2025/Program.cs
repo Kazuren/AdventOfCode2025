@@ -1,6 +1,7 @@
 ﻿using AdventOfCode2025.Puzzles;
 using AdventOfCode2025.Puzzles.Day3Lobby;
 using AdventOfCode2025.Puzzles.Day4PrintingDepartment;
+using AdventOfCode2025.Puzzles.Day5Cafeteria;
 using System.Diagnostics;
 
 namespace AdventOfCode2025;
@@ -20,6 +21,9 @@ internal class Program
 
         Trace.WriteLine($"Day 4, Part 1: {PrintingDepartment.PartOne.Run()}");
         Trace.WriteLine($"Day 4, Part 2: {PrintingDepartment.PartTwo.Run()}");
+
+        Trace.WriteLine($"Day 5, Part 1: {Cafeteria.PartOne.Run()}");
+        Trace.WriteLine($"Day 5, Part 2: {Cafeteria.PartTwo.Run()}");
     }
 }
 
